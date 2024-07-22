@@ -5,7 +5,7 @@ import ActiveSectionContextProvider from "./context/active-section-context";
 import ThemeContextProvider from "./context/theme-context";
 import LanguageContextProvider from "./context/language-context";
 
-function App() {
+function cApp() {
   return (
     <>
       <BrowserRouter>
