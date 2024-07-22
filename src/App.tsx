@@ -8,19 +8,7 @@ import LanguageContextProvider from "./context/language-context";
 function cApp() {
   return (
     <>
-      <BrowserRouter>
-        <ThemeContextProvider>
-          <LanguageContextProvider>
-            <ActiveSectionContextProvider>
-              <Routes>
-                <Route path="/" element={<Home />}></Route>
-                <Route path="/imprint" element={<Home />}></Route>
-                <Route path="/privacy" element={<Home />}></Route>
-              </Routes>
-            </ActiveSectionContextProvider>
-          </LanguageContextProvider>
-        </ThemeContextProvider>
-      </BrowserRouter>
+      <h2>Trying out new design.... Will be live soon <h2/>
     </>
   );
 }
